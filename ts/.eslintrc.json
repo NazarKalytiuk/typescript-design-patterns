@@ -1,0 +1,24 @@
+{
+    "extends": "google",
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "rules": {
+        "prefer-const": "warn",
+        "arrow-parens": "off",
+        "max-len": "off",
+        "object-curly-spacing": "off",
+        "new-cap":"off"
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 8,
+        "ecmaFeatures": {
+            "jsx": true,
+            "experimentalObjectRestSpread": true
+        }
+    }
+}
