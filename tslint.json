@@ -158,7 +158,8 @@
             true,
             250
         ],
-        "object-literal-sort-keys": false
+        "object-literal-sort-keys": false,
+        "no-string-literal": false
     },
     "rulesDirectory": []
 }
